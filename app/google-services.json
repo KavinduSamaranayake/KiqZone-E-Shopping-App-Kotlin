@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401504402207",
+    "project_id": "kiqzone-709bd",
+    "storage_bucket": "kiqzone-709bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401504402207:android:a11c6fafe9db0367550e2a",
+        "android_client_info": {
+          "package_name": "com.saegis.kiqzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJTN6-q5gcXqfEm2RMoldlMFOo0Kl34dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
