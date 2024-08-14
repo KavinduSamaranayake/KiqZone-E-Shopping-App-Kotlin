@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-//import com.saegis.kiqzone.Activity.DetailActivity
+import com.saegis.kiqzone.Activity.DetailActivity
 import com.saegis.kiqzone.Domain.Products
 import com.saegis.kiqzone.R
 
@@ -39,12 +39,12 @@ class ProductListAdapter(var items: List<Products>) :
                 .transform(CenterCrop(), RoundedCorners(30))
                 .into(holder.pic)
 
-// add this next detail activity added
-//            holder.itemView.setOnClickListener {
-//                val intent = Intent(context, DetailActivity::class.java)
-//                intent.putExtra("object", items[position])
-//                context!!.startActivity(intent)
-//            }
+
+            holder.itemView.setOnClickListener {
+                val intent = Intent(context, DetailActivity::class.java)
+                intent.putExtra("object", items[position])
+                context!!.startActivity(intent)
+            }
 
         }
 
